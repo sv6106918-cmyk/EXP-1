@@ -1,108 +1,72 @@
-# EXPERIMENT 1: VERIFICATION OF KIRCHHOFF'S LAWS
+# EXP-1
+EXPT NO: 1	VERIFICATION OF KIRCHHOFF’S LAWS
+AIM
+a.   To verify Kirchhoff’s Voltage Law (KVL) for the given circuit. 
+b.   To verify Kirchhoff’s Current Law (KCL) for the given circuits.
 
-# CALCULATION
+APPARATUS REQUIRED:
+S.No.	Components	Range	Quantity
+1	Resistor	1kΩ	3
+2	Voltmeter (DC)	0-30V	3
+3	Ammeter (DC)	(0-200)mA	3
+4	Bread Board		1
+5	Regulated Power Supply	(0-30)V	1
+6	Connecting wires		As required
 
-## A. KIRCHHOFF'S VOLTAGE LAW (KVL)
+THEORY:
+KVL: Kirchhoff's voltage law states that the sum of the voltage differences around any closed loop in a circuit must be zero. A loop in a circuit is any path that ends at the same point at which it starts.
+KCL:
+Kirchhoff's Current Law (KCL) Kirchhoff's Current Law states that the algebraic sum of the currents entering and leaving a node is equal to zero. By convention, currents entering the node are positive, and those leaving a node are negative
 
-### Given
+PROCEDURE:
+a.   KVL:
+1.   Connect as per the circuit diagram.
+2.   Check if the RPS voltage is set to zero voltage.
+3.   Check all the meters for null position.
+4.   Switch on the RPS.
+5.   Set the input voltage to a value between 0V to 30V.
+6.   Record the voltage values shown in the voltmeter connected across each resistor.
+7.   Take readings for different values of input voltage and tabulate them.
 
-| S.No. | Quantity | Value |
-|---:|---|---:|
-| 1 | Supply Voltage (V) | 110 V |
-| 2 | Resistance R1 | 105 Ω |
-| 3 | Resistance R2 | 104 Ω |
-| 4 | Resistance R3 | 106 Ω |
+b.  KCL:
+1.   Connect as per the circuit diagram.
+2.   Check if the RPS voltage is set to zero voltage.
+3.   Check all the meters for null position.
+4.   Switch on the RPS.
+5.   Set the input voltage to a value between 0V to 30V.
+6.   Record the voltage values shown in the ammeter connected to each resistor.
+7.   Take readings for different values of input voltage and tabulate them. 
 
-### Observed Readings
+CIRCUIT DIAGRAM:
 
-| S.No. | Voltage | Value |
-|---:|---|---:|
-| 1 | V1 | 36.7 V |
-| 2 | V2 | 36.3 V |
-| 3 | V3 | 37.0 V |
+a.   KVL:
+ 
+<img width="1062" height="673" alt="Screenshot 2026-10-14 081649" src="https://github.com/user-attachments/assets/253b1c2b-082e-4c81-9bca-ea7ce154d1b2" />
 
-### Calculation Table
+b.  KCL:
 
-| S.No. | Calculation | Result |
-|---:|---|---:|
-| 1 | V1 + V2 + V3 | 36.7 + 36.3 + 37.0 |
-| 2 | Sum of voltage drops | 110.0 V |
-| 3 | Supply voltage | 110.0 V |
-| 4 | Difference | 0 V |
+ <img width="853" height="615" alt="Screenshot 2026-10-14 081811" src="https://github.com/user-attachments/assets/97ca9c45-890c-41ea-bc18-59b50f007b8b" />
 
-### Verification
+Calculation:
 
-**According to KVL:**
+a.   KVL:
 
-V = V1 + V2 + V3
+<img width="947" height="1600" alt="a" src="https://github.com/user-attachments/assets/cff302cc-b9ea-4dc3-90de-da9299ef8c7f" />
+ 
+b.  KCL:
 
-V = 36.7 + 36.3 + 37.0
+<img width="980" height="1600" alt="b" src="https://github.com/user-attachments/assets/e4a69835-18ff-4206-b7dc-9ea17a93dd40" />
 
-V = 110 V
+Tabulation:
 
-**Therefore, KVL is verified.**
+a.   KVL:
+ 
+<img width="1600" height="796" alt="d" src="https://github.com/user-attachments/assets/3cc47d3c-e605-4241-adeb-e6898a6e78da" />
 
----
+b.  KCL:
 
-## B. KIRCHHOFF'S CURRENT LAW (KCL)
+<img width="1600" height="890" alt="c" src="https://github.com/user-attachments/assets/5219da55-849c-49d4-8a0b-263b9c1cd021" />
 
-### Given
-
-| S.No. | Quantity | Value |
-|---:|---|---:|
-| 1 | Supply Voltage (V) | 210 V |
-| 2 | Resistance R1 | 150 Ω |
-| 3 | Resistance R2 | 120 Ω |
-| 4 | Resistance R3 | 148 Ω |
-| 5 | Resistance R4 | 130 Ω |
-
-### Observed Readings
-
-| S.No. | Current | Value |
-|---:|---|---:|
-| 1 | Total current (I) | 1.08 A |
-| 2 | Current through R2 (I2) | 0.40 A |
-| 3 | Current through R3 (I3) | 0.32 A |
-| 4 | Current through R4 (I4) | 0.37 A |
-
-### Calculation Table
-
-| S.No. | Calculation | Result |
-|---:|---|---:|
-| 1 | I2 + I3 + I4 | 0.40 + 0.32 + 0.37 |
-| 2 | Sum of branch currents | 1.09 A |
-| 3 | Measured total current | 1.08 A |
-| 4 | Difference | 0.01 A |
-
-### Verification
-
-**According to KCL:**
-
-I = I2 + I3 + I4
-
-I = 0.40 + 0.32 + 0.37
-
-I = 1.09 A
-
-| Quantity | Current |
-|---|---:|
-| Total current entering the junction | 1.08 A |
-| Total current leaving the junction | 1.09 A |
-| Difference | 0.01 A |
-
-**Therefore, KCL is approximately verified.** The small difference may be due to rounding or simulation readings.
-
-<img width="2376" height="3670" alt="IMG_20261015_205600436_HDR" src="https://github.com/user-attachments/assets/592305a8-74ea-428d-b2bf-b86c18fcb06b" />
-<img width="2301" height="3800" alt="IMG_20261015_205554531_HDR" src="https://github.com/user-attachments/assets/cdcac49c-6b05-4d7d-b25a-fe00bd33c0bf" />
-<img width="2779" height="3922" alt="IMG_20261015_205536396_HDR" src="https://github.com/user-attachments/assets/9db2b366-a347-482d-b7b0-4e54aeb47013" />
-<img width="2602" height="3997" alt="IMG_20261015_205528898_HDR" src="https://github.com/user-attachments/assets/9d153949-818b-4120-b6cf-d25c1312d792" />
-
-
----
-
-# RESULT
-
-Thus, Kirchhoff's Voltage Law (KVL) is verified because the sum of the voltage drops is equal to the supply voltage.
-
+RESULT:
 
 Thus, for the given circuit, Kirchhoff’s Laws, (a) KVL and (b) KCL are proved.
